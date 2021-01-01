@@ -1,6 +1,6 @@
 {
-  "name": "discord-logger",
-  "version": "1.0.0",
+  "name": "discord-logging-webhook",
+  "version": "1.0.1",
   "description": "Adds a great logging system for discord webhooks",
   "main": "./lib/webhook.js",
   "directories": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DJCoolDev/Discord-Logging-Webhook/issues"
   },
-  "homepage": "https://github.com/DJCoolDev/Discord-Logging-Webhook#readme"
+  "homepage": "https://github.com/DJCoolDev/Discord-Logging-Webhook#readme",
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
 }
