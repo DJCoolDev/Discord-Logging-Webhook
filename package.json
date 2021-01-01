@@ -1,0 +1,25 @@
+{
+  "name": "discord-logger",
+  "version": "1.0.0",
+  "description": "Adds a great logging system for discord webhooks",
+  "main": "./lib/webhook.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJCoolDev/Discord-Logging-Webhook.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "DJCool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJCoolDev/Discord-Logging-Webhook/issues"
+  },
+  "homepage": "https://github.com/DJCoolDev/Discord-Logging-Webhook#readme"
+}
