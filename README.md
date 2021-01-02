@@ -6,7 +6,17 @@ You can log easily stuff with user discord webhooks
 
 `npm i discord-logging-webhook --save`
 
-Then...
+# Usage
+```
+const webhook = require("discord-logging-webhook")
+ 
+const Logger = new webhook.Webhook("WEBHOOK URL HERE")
+```
+Success message
+```
+Logger.success("Succsess-Information","This is a succsess message.")
+```
+![Success](https://djcool.de/storage/cloud/DiscordLoggingWebhook/Success.PNG "Example")
 
 ```
 const webhook = require("discord-logging-webhook")
