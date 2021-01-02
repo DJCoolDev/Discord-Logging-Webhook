@@ -12,7 +12,7 @@ const webhook = require("discord-logging-webhook")
  
 const Logger = new webhook.Webhook("WEBHOOK URL HERE")
 ```
-Success message
+## Success message
 ```
 Logger.success("Succsess-Information","This is a succsess message.")
 ```
